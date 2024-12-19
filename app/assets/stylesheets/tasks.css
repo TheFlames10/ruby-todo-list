@@ -1,0 +1,123 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F1F2; /* Light background */
+    color: #1995AD; /* Teal blue text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #1995AD; /* Teal blue */
+    color: #F1F1F2; /* Light text */
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: fixed; /* Stay at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #1995AD; /* Teal blue */
+    color: #F1F1F2; /* Light text */
+    text-align: center;
+    padding: 1rem;
+    position: fixed; /* Stay at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Main Content Area */
+  main {
+    flex: 1;
+    margin: 70px 0; /* Account for header and footer height */
+    overflow-y: auto; /* Enable scrolling for the main content */
+    padding: 20px;
+    background-color: #F1F1F2; /* Light background */
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #A1D6E2; /* Soft cyan */
+    color: #1995AD; /* Teal blue text */
+    border: 1px solid #1995AD; /* Border for better visibility */
+  }
+  
+  table thead {
+    background-color: #1995AD; /* Teal blue */
+    color: #F1F1F2; /* Light text */
+  }
+  
+  table th, table td {
+    padding: 8px; /* Reduce padding for smaller task boxes */
+    text-align: left;
+    border-bottom: 1px solid #F1F1F2; /* Light gray border */
+    font-size: 0.9rem; /* Smaller font size */
+  }
+  
+  table tbody tr:hover {
+    background-color: #1995AD; /* Teal blue on hover */
+    color: #F1F1F2; /* Light text on hover */
+  }
+  
+  /* Buttons */
+  button, .button {
+    background-color: #1995AD; /* Teal blue */
+    color: #F1F1F2; /* Light text */
+    border: none;
+    padding: 8px 12px; /* Smaller buttons */
+    font-size: 0.8rem; /* Smaller text */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover, .button:hover {
+    background-color: #A1D6E2; /* Soft cyan on hover */
+    color: #1995AD; /* Teal text */
+  }
+  
+  /* Scrollbar Styling (Optional for modern browsers) */
+  main::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  main::-webkit-scrollbar-thumb {
+    background-color: #1995AD; /* Teal blue */
+    border-radius: 5px;
+  }
+  
+  main::-webkit-scrollbar-track {
+    background-color: #F1F1F2; /* Light background */
+  }
+
+  /* Button Styling */
+button, .button {
+    background-color: #1995AD; /* Teal blue */
+    color: #F1F1F2; /* Light text */
+    border: none;
+    padding: 8px 12px; /* Smaller buttons */
+    font-size: 0.8rem; /* Smaller text */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover, .button:hover {
+    background-color: #A1D6E2; /* Soft cyan on hover */
+    color: #1995AD; /* Teal text */
+  }
+  

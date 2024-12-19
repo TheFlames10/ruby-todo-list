@@ -1,0 +1,19 @@
+<h1>Add New Task</h1>
+
+<%= form_with(model: @task, local: false) do |form| %>
+  <div>
+    <%= form.label :description %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div>
+    <%= form.label :priority %>
+    <%= form.select :priority, ["High", "Medium", "Low"] %>
+  </div>
+
+  <div>
+    <%= form.submit "Add Task" %>
+  </div>
+<% end %>
+
+<%= link_to "Back to List", tasks_path %>
